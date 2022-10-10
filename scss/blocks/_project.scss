@@ -1,0 +1,53 @@
+.project{
+    padding-bottom: 250px;
+}
+.project__top{
+    margin-bottom: 94px;
+    text-align: center;
+}
+.project__top--title{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #1C2323;
+}
+.prject__top--text{
+    margin: 20px 0 51px 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #404242;
+}
+.project-line{
+    margin: 0 auto;
+    display: block;
+    width: 135px;
+    height: 5px;
+    background-color: #58A9A5;
+}
+.line-two{
+   margin-top: 15px;
+}
+.poject__cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.project__card--title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #58A9A5;
+}
+.project__card--text{
+    width: 453px;
+    margin: 5px 0 35px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;
+}
+.project__card--title2{
+    margin: 35px 0 5px 0;
+
+}

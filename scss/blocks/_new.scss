@@ -1,0 +1,39 @@
+.phone-call{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+    animation: cricle 1s infinite;
+}
+@keyframes cricle {
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(45deg);
+    }
+
+    40%{
+        transform: rotate(100deg);
+        transition: 0.3s;
+    }
+    60%{
+        transform: rotate(50deg);
+        transition: 0.3s;
+
+    }
+    80%{
+        transform: rotate(100deg);
+        transition: 0.3s;
+
+    }
+    90%{
+        transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(-2deg);
+    }
+}

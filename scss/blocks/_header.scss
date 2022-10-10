@@ -1,0 +1,35 @@
+.header{
+    padding: 85px 0 105px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo-text{
+    margin-left: 14px;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    color: #58A9A5;
+}
+.header__list{
+  column-gap: 86px;
+}
+.header__link{
+    font-size: 25px;
+    line-height: 38px;
+    color: #404242;
+}
+.header__btn{
+    padding: 21px 87px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background-color: #58A9A5;
+    border-radius: 15px;
+}
+.header__btn:hover{
+    background-color: #8de7e3;
+}
+.header__iteam:hover{
+    border-bottom:  2px solid #FEC62D;
+}
